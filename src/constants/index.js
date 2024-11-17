@@ -8,7 +8,8 @@ import {
     html,
     css,
     reactjs,
-    redux,
+    swift,
+    python,
     tailwind,
     nodejs,
     mongodb,
@@ -81,13 +82,10 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
+   
     {
       name: "Node JS",
       icon: nodejs,
@@ -101,6 +99,14 @@ import {
       icon: threejs,
     },
     {
+      name: "Swift",
+      icon: swift,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
       name: "git",
       icon: git,
     },
@@ -108,10 +114,7 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+   
   ];
   
   const experiences = [
@@ -133,7 +136,7 @@ import {
       company_name: "Infosys",
       icon: starbucks,
       iconBg: "#E6DEDD",
-      date: "April 20214 - May 2024",
+      date: "April 2024 - May 2024",
       points: [
         "Developed IOS apps using SwiftUI and Firebase speeding up feature deployment by 20%.",
         "Used Jira for tracking, enhancing team collaboration by 15%.",
