@@ -6,6 +6,7 @@ import {
   Experience,
   Hero,
   Navbar,
+  Footer,
   Tech,
   StarsCanvas,
 } from "./components";
@@ -25,6 +26,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <Footer/>
       </div>
     </BrowserRouter>
   );
